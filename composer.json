@@ -1,0 +1,33 @@
+{
+  "name": "guobei/guobeiTest",
+  "description": "Yii2 zqy234 terrytest",
+  "keywords": [
+    "yii2",
+    "terrytest"
+  ],
+  "homepage": "https://github.com/guobei/demo",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/guobei/demo"
+  },
+  "authors": [
+    {
+      "name": "guobei",
+      "email": "957488094@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+   
+  },
+  "autoload": {
+    "psr-4": {
+      "terry\\": ""
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
